@@ -1,0 +1,9 @@
+server:
+  port: 8087
+spring:
+  profiles: default
+  datasource:
+    url: jdbc:postgresql://pg-comunika-sms-lab.cluster-cyzbcrqqzfcz.us-east-1.rds.amazonaws.com:5432/comunika-sms-v3
+    username: pgmaster
+    password: QHlN3l6hYjtsMp0KhEc3
+    driverClassName: org.postgresql.Driver
